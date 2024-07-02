@@ -4,9 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "start": "vitepress preview",
+    "pm2:start": "pm2 start \"npm run start\" --name nextjs-cn",
+    "pm2:stop": "pm2 stop nextjs-cn && pm2 delete nextjs-cn"
   },
   "devDependencies": {
     "vitepress": "^1.2.3"
