@@ -4,7 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Next.js 中文站",
   description: "基于 Next.js v14.x 的官网站点进行翻译整理，方便国内开发者学习使用 Next.js。",
+  base:'/nextjs-cn/',
   srcDir: 'src',
+  outDir: 'dist',
   cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
