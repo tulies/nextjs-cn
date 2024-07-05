@@ -14,3 +14,8 @@ outline: deep
 - 登录页面。
 - 受身份验证保护的仪表板页面。
 - 用户可以添加、编辑和删除发票。
+
+The dashboard will also have an accompanying database, which you'll set up in a later chapter.
+
+By the end of the course, you'll have the essential skills needed to start building full-stack Next.js applications.
+
