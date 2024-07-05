@@ -12,11 +12,11 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '文档', link: '/docs/',activeMatch: '/docs/'},
-      { text: '教程', link: '/learn/',activeMatch: '/learn/'}
+      { text: '文档', link: '/docs',activeMatch: '/docs'},
+      { text: '教程', link: '/learn',activeMatch: '/learn'}
     ],
     sidebar: {
-      '/docs/': [
+      '/docs': [
         {
           text: '开始使用',
           link: '/docs/',
@@ -26,10 +26,10 @@ export default defineConfig({
           ]
         }
       ],
-      '/learn/': [
+      '/learn': [
         {
           text: '介绍',
-          link: '/learn/',
+          link: '/learn',
         },
         {
           text: '章节',
