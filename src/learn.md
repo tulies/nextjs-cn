@@ -11,10 +11,6 @@ outline: deep
 
 在本课程中，我们将构建一个简化版的财务仪表板，该仪表板具有：
 
-- 公共主页。
-- 登录页面。
-- 受身份验证保护的仪表板页面。
-- 用户可以添加、编辑和删除发票。
 
 The dashboard will also have an accompanying database, which you'll set up in a later chapter.
 
